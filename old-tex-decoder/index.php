@@ -17,7 +17,7 @@
         }
 
         $files = [];
-        $paths = glob('./game/Graph/{*.tex,**/*.tex,*.tex2,**/*.tex2}', GLOB_BRACE);
+        $paths = glob('./../game/Graph/{*.tex,**/*.tex,*.tex2,**/*.tex2}', GLOB_BRACE);
         foreach ($paths as $path) {
             $inf = pathinfo($path);
             $inf += [
