@@ -13,7 +13,7 @@
     <?php
         $tex = @$_GET['tex'];
         if ($tex && file_exists($tex)) {
-            echo '<script src="decode_tex_files.js"></script>';
+            echo '<script src="tex_decoder.js"></script>';
         }
 
         $files = [];
